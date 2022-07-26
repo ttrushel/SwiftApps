@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4388F56426EC8B11447B3235 /* Pods_ThoughtlessTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6FCDB1932489F7B1B7C5F0 /* Pods_ThoughtlessTests.framework */; };
+		53396DC9A4E555B9BA05906A /* Pods_Thoughtless.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BB04E8C1406F7203EED9DD6 /* Pods_Thoughtless.framework */; };
+		650E47F71E87B9C7009585CA /* MarkdownNotesWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E47F61E87B9C7009585CA /* MarkdownNotesWebViewController.swift */; };
+		650E47F81E87B9C7009585CA /* MarkdownNotesWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650E47F61E87B9C7009585CA /* MarkdownNotesWebViewController.swift */; };
+		651584971E6EB59300DA58F9 /* NotesNavigationControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651584961E6EB59300DA58F9 /* NotesNavigationControler.swift */; };
+		651584981E6EB59300DA58F9 /* NotesNavigationControler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651584961E6EB59300DA58F9 /* NotesNavigationControler.swift */; };
+		651875171D53000F006C8D82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651875161D53000F006C8D82 /* AppDelegate.swift */; };
+		6518751C1D53000F006C8D82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6518751A1D53000F006C8D82 /* Main.storyboard */; };
+		6518751E1D53000F006C8D82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6518751D1D53000F006C8D82 /* Assets.xcassets */; };
+		651875211D53000F006C8D82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6518751F1D53000F006C8D82 /* LaunchScreen.storyboard */; };
+		651875291D53A354006C8D82 /* NotesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651875281D53A354006C8D82 /* NotesTableViewController.swift */; };
+		6525A57B1E9F36F0005A9BCE /* NoteSafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6525A57A1E9F36F0005A9BCE /* NoteSafariViewController.swift */; };
+		6525A57C1E9F36F0005A9BCE /* NoteSafariViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6525A57A1E9F36F0005A9BCE /* NoteSafariViewController.swift */; };
+		653518FF1D6BE9F400294A64 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653518FE1D6BE9F400294A64 /* Note.swift */; };
+		653519091D6BF72700294A64 /* NotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653519081D6BF72700294A64 /* NotesTests.swift */; };
+		653519111D6BFB1100294A64 /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653518FE1D6BE9F400294A64 /* Note.swift */; };
+		65610CC81D54667A003E0882 /* NotesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65610CC71D54667A003E0882 /* NotesTableViewCell.swift */; };
+		656D3D2B1EDFD2620023D9DD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656D3D2A1EDFD2620023D9DD /* AboutViewController.swift */; };
+		656D3D2C1EDFD2620023D9DD /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656D3D2A1EDFD2620023D9DD /* AboutViewController.swift */; };
+		65850F451E6AAAAE00555E40 /* ColorThemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65850F441E6AAAAE00555E40 /* ColorThemeHelper.swift */; };
+		65850F461E6AAAAE00555E40 /* ColorThemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65850F441E6AAAAE00555E40 /* ColorThemeHelper.swift */; };
+		65B7DA811E3B2FF7006A1A87 /* NoteDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7DA801E3B2FF7006A1A87 /* NoteDocument.swift */; };
+		65B7DA821E3B2FF7006A1A87 /* NoteDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B7DA801E3B2FF7006A1A87 /* NoteDocument.swift */; };
+		65C6B3801D65913800310FF8 /* NotesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C6B37F1D65913800310FF8 /* NotesViewController.swift */; };
+		65F3B5F21E850E4E00873F7C /* MarkdownHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3B5F11E850E4E00873F7C /* MarkdownHelper.swift */; };
+		65F3B5F31E850E4E00873F7C /* MarkdownHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F3B5F11E850E4E00873F7C /* MarkdownHelper.swift */; };
+		65FE6E7F1DBFC81B00F11A8E /* CurrentDateAndTimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE6E7E1DBFC81B00F11A8E /* CurrentDateAndTimeHelper.swift */; };
+		65FE6E801DBFC81B00F11A8E /* CurrentDateAndTimeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FE6E7E1DBFC81B00F11A8E /* CurrentDateAndTimeHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6535190B1D6BF72700294A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6518750B1D53000F006C8D82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 651875121D53000F006C8D82;
+			remoteInfo = Notes;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D2ECF3488456280F71EEF26 /* Pods-Thoughtless.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thoughtless.release.xcconfig"; path = "Pods/Target Support Files/Pods-Thoughtless/Pods-Thoughtless.release.xcconfig"; sourceTree = "<group>"; };
+		2E9A19799D3B8D41650EE413 /* Pods-ThoughtlessTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtlessTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtlessTests/Pods-ThoughtlessTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BB04E8C1406F7203EED9DD6 /* Pods_Thoughtless.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Thoughtless.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		650E47F61E87B9C7009585CA /* MarkdownNotesWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownNotesWebViewController.swift; sourceTree = "<group>"; };
+		651584961E6EB59300DA58F9 /* NotesNavigationControler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesNavigationControler.swift; sourceTree = "<group>"; };
+		651875131D53000F006C8D82 /* Thoughtless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thoughtless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		651875161D53000F006C8D82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6518751B1D53000F006C8D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6518751D1D53000F006C8D82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		651875201D53000F006C8D82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		651875221D53000F006C8D82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		651875281D53A354006C8D82 /* NotesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewController.swift; sourceTree = "<group>"; };
+		6525A57A1E9F36F0005A9BCE /* NoteSafariViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteSafariViewController.swift; sourceTree = "<group>"; };
+		653518FE1D6BE9F400294A64 /* Note.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		653519061D6BF72700294A64 /* ThoughtlessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThoughtlessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		653519081D6BF72700294A64 /* NotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesTests.swift; sourceTree = "<group>"; };
+		6535190A1D6BF72700294A64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65610CC71D54667A003E0882 /* NotesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesTableViewCell.swift; sourceTree = "<group>"; };
+		656D3D2A1EDFD2620023D9DD /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		65850F441E6AAAAE00555E40 /* ColorThemeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorThemeHelper.swift; sourceTree = "<group>"; };
+		65B7DA7F1E3B081C006A1A87 /* Thoughtless.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Thoughtless.entitlements; sourceTree = "<group>"; };
+		65B7DA801E3B2FF7006A1A87 /* NoteDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDocument.swift; sourceTree = "<group>"; };
+		65C6B37F1D65913800310FF8 /* NotesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotesViewController.swift; sourceTree = "<group>"; };
+		65F3B5F11E850E4E00873F7C /* MarkdownHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarkdownHelper.swift; sourceTree = "<group>"; };
+		65FE6E7E1DBFC81B00F11A8E /* CurrentDateAndTimeHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentDateAndTimeHelper.swift; sourceTree = "<group>"; };
+		738B997E1C8C519D4AD6C326 /* Pods-ThoughtlessTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThoughtlessTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThoughtlessTests/Pods-ThoughtlessTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC1CDE91BCC2CC3320A8DEFE /* Pods-Thoughtless.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Thoughtless.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Thoughtless/Pods-Thoughtless.debug.xcconfig"; sourceTree = "<group>"; };
+		EA6FCDB1932489F7B1B7C5F0 /* Pods_ThoughtlessTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThoughtlessTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		651875101D53000F006C8D82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53396DC9A4E555B9BA05906A /* Pods_Thoughtless.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653519031D6BF72700294A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4388F56426EC8B11447B3235 /* Pods_ThoughtlessTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6518750A1D53000F006C8D82 = {
+			isa = PBXGroup;
+			children = (
+				651875151D53000F006C8D82 /* Thoughtless */,
+				653519071D6BF72700294A64 /* NotesTests */,
+				651875141D53000F006C8D82 /* Products */,
+				98C14F7FBAAF594AB932E6B6 /* Pods */,
+				962007E01869D83914B5FE7C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		651875141D53000F006C8D82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				651875131D53000F006C8D82 /* Thoughtless.app */,
+				653519061D6BF72700294A64 /* ThoughtlessTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		651875151D53000F006C8D82 /* Thoughtless */ = {
+			isa = PBXGroup;
+			children = (
+				651875161D53000F006C8D82 /* AppDelegate.swift */,
+				656D3D2E1EDFD2E70023D9DD /* Model */,
+				65267D5D1EE166720044BC31 /* View */,
+				656D3D2F1EDFD2F00023D9DD /* Controller */,
+				656D3D2D1EDFD2D90023D9DD /* Helper */,
+				65267D5E1EE1BDD50044BC31 /* Supporting Files */,
+			);
+			path = Thoughtless;
+			sourceTree = "<group>";
+		};
+		65267D5D1EE166720044BC31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6518751A1D53000F006C8D82 /* Main.storyboard */,
+				6518751F1D53000F006C8D82 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		65267D5E1EE1BDD50044BC31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65B7DA7F1E3B081C006A1A87 /* Thoughtless.entitlements */,
+				6518751D1D53000F006C8D82 /* Assets.xcassets */,
+				651875221D53000F006C8D82 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		653519071D6BF72700294A64 /* NotesTests */ = {
+			isa = PBXGroup;
+			children = (
+				653519081D6BF72700294A64 /* NotesTests.swift */,
+				6535190A1D6BF72700294A64 /* Info.plist */,
+			);
+			path = NotesTests;
+			sourceTree = "<group>";
+		};
+		656D3D2D1EDFD2D90023D9DD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				65850F441E6AAAAE00555E40 /* ColorThemeHelper.swift */,
+				65FE6E7E1DBFC81B00F11A8E /* CurrentDateAndTimeHelper.swift */,
+				65F3B5F11E850E4E00873F7C /* MarkdownHelper.swift */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		656D3D2E1EDFD2E70023D9DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				653518FE1D6BE9F400294A64 /* Note.swift */,
+				65B7DA801E3B2FF7006A1A87 /* NoteDocument.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		656D3D2F1EDFD2F00023D9DD /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				656D3D2A1EDFD2620023D9DD /* AboutViewController.swift */,
+				650E47F61E87B9C7009585CA /* MarkdownNotesWebViewController.swift */,
+				651584961E6EB59300DA58F9 /* NotesNavigationControler.swift */,
+				6525A57A1E9F36F0005A9BCE /* NoteSafariViewController.swift */,
+				65610CC71D54667A003E0882 /* NotesTableViewCell.swift */,
+				651875281D53A354006C8D82 /* NotesTableViewController.swift */,
+				65C6B37F1D65913800310FF8 /* NotesViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		962007E01869D83914B5FE7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BB04E8C1406F7203EED9DD6 /* Pods_Thoughtless.framework */,
+				EA6FCDB1932489F7B1B7C5F0 /* Pods_ThoughtlessTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98C14F7FBAAF594AB932E6B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC1CDE91BCC2CC3320A8DEFE /* Pods-Thoughtless.debug.xcconfig */,
+				0D2ECF3488456280F71EEF26 /* Pods-Thoughtless.release.xcconfig */,
+				2E9A19799D3B8D41650EE413 /* Pods-ThoughtlessTests.debug.xcconfig */,
+				738B997E1C8C519D4AD6C326 /* Pods-ThoughtlessTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		651875121D53000F006C8D82 /* Thoughtless */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651875251D53000F006C8D82 /* Build configuration list for PBXNativeTarget "Thoughtless" */;
+			buildPhases = (
+				597431E61877C26EE753B97A /* [CP] Check Pods Manifest.lock */,
+				6518750F1D53000F006C8D82 /* Sources */,
+				651875101D53000F006C8D82 /* Frameworks */,
+				651875111D53000F006C8D82 /* Resources */,
+				65610CC61D5452DC003E0882 /* ShellScript */,
+				A850E8CB2A8D8AF467178093 /* [CP] Embed Pods Frameworks */,
+				FEF258C43006B5F692CD1CC2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thoughtless;
+			productName = Notes;
+			productReference = 651875131D53000F006C8D82 /* Thoughtless.app */;
+			productType = "com.apple.product-type.application";
+		};
+		653519051D6BF72700294A64 /* ThoughtlessTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6535190D1D6BF72700294A64 /* Build configuration list for PBXNativeTarget "ThoughtlessTests" */;
+			buildPhases = (
+				5CC309CBF1B402781BB2D16C /* [CP] Check Pods Manifest.lock */,
+				653519021D6BF72700294A64 /* Sources */,
+				653519031D6BF72700294A64 /* Frameworks */,
+				653519041D6BF72700294A64 /* Resources */,
+				F6114808BAA3E64512823CDC /* [CP] Embed Pods Frameworks */,
+				72285E196EED67D3F794A3D2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6535190C1D6BF72700294A64 /* PBXTargetDependency */,
+			);
+			name = ThoughtlessTests;
+			productName = NotesTests;
+			productReference = 653519061D6BF72700294A64 /* ThoughtlessTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6518750B1D53000F006C8D82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Yohannes Wijaya";
+				TargetAttributes = {
+					651875121D53000F006C8D82 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 4Z5JKF2M6S;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					653519051D6BF72700294A64 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = 651875121D53000F006C8D82;
+					};
+				};
+			};
+			buildConfigurationList = 6518750E1D53000F006C8D82 /* Build configuration list for PBXProject "Thoughtless" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6518750A1D53000F006C8D82;
+			productRefGroup = 651875141D53000F006C8D82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				651875121D53000F006C8D82 /* Thoughtless */,
+				653519051D6BF72700294A64 /* ThoughtlessTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		651875111D53000F006C8D82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651875211D53000F006C8D82 /* LaunchScreen.storyboard in Resources */,
+				6518751E1D53000F006C8D82 /* Assets.xcassets in Resources */,
+				6518751C1D53000F006C8D82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653519041D6BF72700294A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		597431E61877C26EE753B97A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5CC309CBF1B402781BB2D16C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		65610CC61D5452DC003E0882 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "TAGS=\"TODO:|FIXME:\"\nERRORTAG=\"ERROR:\"\nfind \"${SRCROOT}\" \\( -name \"*.h\" -or -name \"*.m\" -or -name \"*.swift\" \\) -print0 | xargs -0 egrep --with-filename --line-number --only-matching \"($TAGS).*\\$|($ERRORTAG).*\\$\" | perl -p -e \"s/($TAGS)/ warning: \\$1/\" | perl -p -e \"s/($ERRORTAG)/ error: \\$1/\"";
+		};
+		72285E196EED67D3F794A3D2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThoughtlessTests/Pods-ThoughtlessTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A850E8CB2A8D8AF467178093 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thoughtless/Pods-Thoughtless-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6114808BAA3E64512823CDC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThoughtlessTests/Pods-ThoughtlessTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEF258C43006B5F692CD1CC2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Thoughtless/Pods-Thoughtless-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6518750F1D53000F006C8D82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65C6B3801D65913800310FF8 /* NotesViewController.swift in Sources */,
+				65F3B5F21E850E4E00873F7C /* MarkdownHelper.swift in Sources */,
+				653518FF1D6BE9F400294A64 /* Note.swift in Sources */,
+				651584971E6EB59300DA58F9 /* NotesNavigationControler.swift in Sources */,
+				6525A57B1E9F36F0005A9BCE /* NoteSafariViewController.swift in Sources */,
+				651875171D53000F006C8D82 /* AppDelegate.swift in Sources */,
+				651875291D53A354006C8D82 /* NotesTableViewController.swift in Sources */,
+				65850F451E6AAAAE00555E40 /* ColorThemeHelper.swift in Sources */,
+				650E47F71E87B9C7009585CA /* MarkdownNotesWebViewController.swift in Sources */,
+				65FE6E7F1DBFC81B00F11A8E /* CurrentDateAndTimeHelper.swift in Sources */,
+				65610CC81D54667A003E0882 /* NotesTableViewCell.swift in Sources */,
+				656D3D2B1EDFD2620023D9DD /* AboutViewController.swift in Sources */,
+				65B7DA811E3B2FF7006A1A87 /* NoteDocument.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		653519021D6BF72700294A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650E47F81E87B9C7009585CA /* MarkdownNotesWebViewController.swift in Sources */,
+				65FE6E801DBFC81B00F11A8E /* CurrentDateAndTimeHelper.swift in Sources */,
+				651584981E6EB59300DA58F9 /* NotesNavigationControler.swift in Sources */,
+				65850F461E6AAAAE00555E40 /* ColorThemeHelper.swift in Sources */,
+				6525A57C1E9F36F0005A9BCE /* NoteSafariViewController.swift in Sources */,
+				65B7DA821E3B2FF7006A1A87 /* NoteDocument.swift in Sources */,
+				65F3B5F31E850E4E00873F7C /* MarkdownHelper.swift in Sources */,
+				653519091D6BF72700294A64 /* NotesTests.swift in Sources */,
+				656D3D2C1EDFD2620023D9DD /* AboutViewController.swift in Sources */,
+				653519111D6BFB1100294A64 /* Note.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6535190C1D6BF72700294A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 651875121D53000F006C8D82 /* Thoughtless */;
+			targetProxy = 6535190B1D6BF72700294A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6518751A1D53000F006C8D82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6518751B1D53000F006C8D82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6518751F1D53000F006C8D82 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				651875201D53000F006C8D82 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		651875231D53000F006C8D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		651875241D53000F006C8D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		651875261D53000F006C8D82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC1CDE91BCC2CC3320A8DEFE /* Pods-Thoughtless.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Thoughtless/Thoughtless.entitlements;
+				DEVELOPMENT_TEAM = 4Z5JKF2M6S;
+				INFOPLIST_FILE = "$(SRCROOT)/Thoughtless/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.corruptionofconformity.thoughtless;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		651875271D53000F006C8D82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D2ECF3488456280F71EEF26 /* Pods-Thoughtless.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Thoughtless/Thoughtless.entitlements;
+				DEVELOPMENT_TEAM = 4Z5JKF2M6S;
+				INFOPLIST_FILE = "$(SRCROOT)/Thoughtless/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.corruptionofconformity.thoughtless;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6535190E1D6BF72700294A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E9A19799D3B8D41650EE413 /* Pods-ThoughtlessTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.fearless.NotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thoughtless.app/Thoughtless";
+			};
+			name = Debug;
+		};
+		6535190F1D6BF72700294A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 738B997E1C8C519D4AD6C326 /* Pods-ThoughtlessTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NotesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.fearless.NotesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Thoughtless.app/Thoughtless";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6518750E1D53000F006C8D82 /* Build configuration list for PBXProject "Thoughtless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651875231D53000F006C8D82 /* Debug */,
+				651875241D53000F006C8D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651875251D53000F006C8D82 /* Build configuration list for PBXNativeTarget "Thoughtless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651875261D53000F006C8D82 /* Debug */,
+				651875271D53000F006C8D82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6535190D1D6BF72700294A64 /* Build configuration list for PBXNativeTarget "ThoughtlessTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6535190E1D6BF72700294A64 /* Debug */,
+				6535190F1D6BF72700294A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6518750B1D53000F006C8D82 /* Project object */;
+}
